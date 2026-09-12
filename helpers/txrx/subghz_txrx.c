@@ -126,6 +126,10 @@ const char* subghz_txrx_get_preset_name(SubGhzTxRx* instance, const char* preset
         preset_name = "FM238";
     } else if(!strcmp(preset, "FuriHalSubGhzPreset2FSKDev12KAsync")) {
         preset_name = "FM12K";
+    } else if(!strcmp(preset, "FM20K")) {
+        preset_name = "FM20K";
+    } else if(!strcmp(preset, "FM14K")) {
+        preset_name = "FM14K";
     } else if(!strcmp(preset, "FuriHalSubGhzPreset2FSKDev476Async")) {
         preset_name = "FM476";
     } else if(!strcmp(preset, "FuriHalSubGhzPresetCustom")) {
